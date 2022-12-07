@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Excercicio de paises</h1>
+    Seu pais <input type="text" name="pais" id="ipais">
+    <input type="button" value="Verificar" onclick="verificar()">
+    <div id="res"></div>
+    <script>
+        function verificar() {
+            var p = window.document.getElementById('ipais')
+            var res = window.document.getElementById('res')
+            res.innerText = `Seu Pais é: ${p}`
+            if (p == 'A'){
+                res.innerHTML = `Seu pais é ${p}`
+            }
+        }
+
+    </script>
+
+</body>
+</html>
