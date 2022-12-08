@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+body{
+    background-color: rgba(6, 117, 236, 0.76);
+    font: normal 15pt arial;
+}
+
+header{
+    color: aliceblue;
+    text-align: center;
+
+}
+
+section{
+    background-color: aliceblue;
+    border-radius: 10px;
+    padding: 22px;
+    width: 500px;
+    margin: auto;
+   
+}
+
+footer{
+    color:white;
+    text-align: center;
+    font-style: italic;
+    
+}
+div{
+    text-align: center;
+}
+div#foto > img#imagem{
+    border-radius: 49%;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.428);
+    height: 150px;
+
+}
